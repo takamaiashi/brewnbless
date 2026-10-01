@@ -106,7 +106,7 @@ if "authenticated" not in st.session_state:
 
 # --- LOGIN GATEKEEPER SCREEN ---
 if not st.session_state["authenticated"]:
-  st.title("☕ Cafe Revenue & COGS Tracker")
+  st.title("☕ Brew and Bless Financials Tracker")
   st.markdown("### Please enter your passcode to log in.")
 
   with st.form("login_form"):
